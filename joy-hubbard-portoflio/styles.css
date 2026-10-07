@@ -1,14 +1,25 @@
 header{
 
-    background-color: #7f7f7f;
-    padding: 1rem;
+    background-color: #b3cee0;
+    padding: .75rem;
+    padding-right: 2rem;
+    margin: 0rem 4rem;
     display: flex;
-    align-items: center;
-}
-.text-logo{width: 25rem;}
+    align-items: baseline;
+    justify-content: space-between;}
 
-nav{display: flex;
-  flex-direction: row; /* Arranges items left to right */}
+
+.JH-logo{width: 3rem;}
+
+nav a{color:#273871;
+  text-decoration: none;
+margin:.1rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+nav a:hover{color: #2671c6;
+  text-decoration:underline;}
+
 
 body{
     font-family: times new roman, serif;
@@ -46,16 +57,30 @@ display: block;
   max-width: 40%; 
   height: auto;}
 
-.pfp{
- height: 10cm;
-padding-right: 2rem;
+
+.hnav{text-align: center;
+margin-top: 3rem;
+margin-bottom: 0rem;}  
+
+.ah{padding: 0 3rem;}
+
+  .lines{width: 60%;display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:1rem;
+  margin-bottom: 0rem;
 }
 
+.pfp{
+ height: 10cm;
+}
+
+.WL1{padding: 1.5rem 3rem 0rem 3rem;}
+.WL{padding: 0rem 3rem;}
 .Welcome{background-color: #b7c8cd;
-    padding: 3rem;
-margin: 0;
-height: 9cm;
-color: #f5f0e9;}
+height: 10cm;
+color: #f5f0e9;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 /* gallery page */
 
