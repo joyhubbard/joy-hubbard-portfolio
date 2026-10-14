@@ -1,6 +1,6 @@
 header{
 
-    background-color: #b3cee0;
+    background-color: #b7c8cd;
     padding: .5rem;
     padding-right: 3rem;
     padding-left: 3rem;
@@ -18,7 +18,7 @@ margin:.1rem;
 font-family: cursive;}
 
 
-nav a:hover{color: #2671c6;
+nav a:hover{color: #435f67;
   text-decoration:underline;}
 
 
@@ -32,7 +32,7 @@ main{
 
 footer{
 
-    background-color: #7f7f7f;
+    background-color: #b7c8cd;
     padding: .5rem;
     text-align: center;
 }
@@ -47,15 +47,14 @@ padding-bottom: 2rem;}
         display: grid;
         /* Creates two columns of exactly equal width */
         grid-template-columns: 1.5fr 1fr; 
-        
-
+        margin-bottom: 3rem;
         
         /* gap: 20px; */
         /* Optional: Adds space between the columns */}
 
         .column{
         /* Gives a visible boundary to see the equal heights */
-        background-color:#adc8ce; 
+        background-color:#b7c8cd; 
         padding: 3rem;
         color: #f5f0e9;}
 
@@ -119,7 +118,7 @@ text-align: center;}
 
 .projects-gallery img{width: 6cm; height: 6cm; object-fit: cover;
 border-radius: 5%;
-    border-color: #212675;
+    border-color: #273871;
     border: 2px solid;}
 .projects-gallery figure{margin: 2rem;
     display: flex;
@@ -135,10 +134,10 @@ margin: 0rem 2rem;
 
 .projects-gallery a{text-align: center;
     text-decoration: none;
-    color: #2c297f;}
+    color: #273871;}
 
     .projects-gallery a:hover{text-decoration: underline;
-    color: #4f5a89;}
+    color: #7298be;}
 figcaption{margin-top: .3rem;}
 
 
