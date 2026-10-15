@@ -38,8 +38,8 @@ footer{
 }
 
 .title{background-color: #f5f0e9;
-padding-top: 2rem;
-padding-bottom: 2rem;}
+padding-top: 1.6rem;
+padding-bottom: 2cm;}
 
 /* HOME PAGE */
 
@@ -76,17 +76,18 @@ padding-bottom: 2rem;}
 padding-top: 2rem;
 padding-bottom: 2rem;}
 
-.name{height: 3cm;
+.name{height: 2cm;
 display: block;
   margin-left: auto;
   margin-right: auto;
   /* Optional: keeps the image from overflowing on small screens */
   max-width: 40%; 
-  height: auto;}
+  height: auto;
+margin-bottom: 2rem;}
 
 
 .hnav{text-align: center;
-margin-top: 3rem;
+margin-top: 1rem;
 margin-bottom: 0rem;}  
 
 .ah{padding: 0 3rem;}
@@ -98,10 +99,6 @@ margin-bottom: 0rem;}
   margin-bottom: 0rem;
 }
 
-
-
-.WL1{padding: 1.5rem 3rem 0rem 3rem;}
-.WL{padding: 0rem 3rem;}
 .Welcome{background-color: #b7c8cd;
 height: 10cm;
 color: #f5f0e9;
