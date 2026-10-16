@@ -23,7 +23,7 @@ nav a:hover{color: #435f67;
 
 
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #f5f0e9;}
 
 main{
@@ -50,13 +50,15 @@ padding-bottom: 2cm;}
         margin-bottom: 3rem;
         
         /* gap: 20px; */
-        /* Optional: Adds space between the columns */}
+        /* Optional: Adds space between the columns */;}
+
+
 
         .column{
         /* Gives a visible boundary to see the equal heights */
         background-color:#b7c8cd; 
         padding: 3rem;
-        color: #f5f0e9;}
+        color: #273871;}
 
         .column2{padding: 0;}
 
@@ -76,7 +78,7 @@ padding-bottom: 2cm;}
 padding-top: 2rem;
 padding-bottom: 2rem;}
 
-.name{height: 2cm;
+.name{
 display: block;
   margin-left: auto;
   margin-right: auto;
@@ -85,6 +87,15 @@ display: block;
   height: auto;
 margin-bottom: 2rem;}
 
+.name2{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: keeps the image from overflowing on small screens */
+  max-width: 30%; 
+  height: auto;
+margin-bottom: 2rem;
+}
 
 .hnav{text-align: center;
 margin-top: 1rem;
@@ -99,10 +110,6 @@ margin-bottom: 0rem;}
   margin-bottom: 0rem;
 }
 
-.Welcome{background-color: #b7c8cd;
-height: 10cm;
-color: #f5f0e9;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 /* gallery page */
 
