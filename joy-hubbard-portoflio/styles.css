@@ -15,16 +15,19 @@ header{
 nav a{color:#273871;
   text-decoration: none;
 margin:.6rem;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: large;}
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{font-family: "Aboreto", system-ui;
+  font-weight: 800;}
 
-
-nav a:hover{color: #435f67;
+nav a:hover{color: #2b85c2;
   text-decoration:underline;}
 
 
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+      font-family: "Quicksand", sans-serif;
     background-color: #f5f0e9;
 font-size: large;}
 
@@ -73,11 +76,6 @@ padding-bottom: 2cm;}
         .pfp{height: 12cm;}
 
 
-.content{justify-content: center;
-    display: flex;
-    align-items: stretch;
-padding-top: 2rem;
-padding-bottom: 2rem;}
 
 .name{
 display: block;
@@ -164,7 +162,7 @@ figcaption{margin-top: .3rem;}
     color:#273871;
     padding: 4rem;
     margin: 4rem 12rem 12rem 12rem;
-    background-color: #b5cdd8;
+    background-color: #b7c8cd;
   /* Semi-transparent background */
 
   border-radius: 20px;
@@ -176,3 +174,21 @@ figcaption{margin-top: .3rem;}
   /* Subtle border that catches the light */
   border: 1px solid rgba(255, 255, 255, 0.6); 
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);}
+
+a{color: #5c83af;}
+a:hover{color: #2b85c2;}
+
+@media (max-width: 678px) {
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 0rem;
+  }
+.contactintro{
+    padding: 2rem;
+    margin: 3rem;}
+
+  .galintro{padding-left: 3rem;
+    padding-right: 3rem;}
+  
+  }
